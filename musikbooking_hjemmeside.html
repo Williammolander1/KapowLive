@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dit Bookingbureau</kapowlive
+                      >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: #111;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background: #222;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1400x400?text=Kommende+Koncerter') center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 6px #000;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .events {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .event {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .event h3 {
+      margin: 0 0 10px;
+    }
+    .footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dit Bookingbureau</h1>
+    <p>Live musik – planlagt og professionelt</p>
+  </header>
+
+  <nav>
+    <a href="#koncerter">Koncerter</a>
+    <a href="#artister">Artister</a>
+    <a href="#omos">Om os</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <div class="hero">
+    Kommende Koncerter
+  </div>
+
+  <section class="section" id="koncerter">
+    <h2>Kommende koncerter</h2>
+    <div class="events">
+      <div class="event">
+        <h3>Artist A</h3>
+        <p>København – 24. august</p>
+        <a href="#">Køb billet</a>
+      </div>
+      <div class="event">
+        <h3>Artist B</h3>
+        <p>Aarhus – 10. september</p>
+        <a href="#">Køb billet</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="artister">
+    <h2>Vores artister</h2>
+    <p>Vi repræsenterer en bred vifte af danske og internationale musikere – fra upcoming navne til etablerede stjerner.</p>
+  </section>
+
+  <section class="section" id="omos">
+    <h2>Om os</h2>
+    <p>Vi er et dansk bookingbureau med passion for musik og liveoplevelser. Vores mål er at forbinde artister og publikum gennem professionelle og mindeværdige koncerter.</p>
+  </section>
+
+  <section class="section" id="kontakt">
+    <h2>Kontakt os</h2>
+    <p>Email: kontakt@ditbookingbureau.dk<br>Telefon: +45 12 34 56 78</p>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 Dit Bookingbureau – Alle rettigheder forbeholdes
+  </footer>
+</body>
+</html>
